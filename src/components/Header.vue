@@ -1,20 +1,24 @@
 <template>
   <header class="header">
-    <div class="top container">
-      <img src="@/assets/header/delivery.svg" alt="deliver" />
-      <p>Доставка и сборка по городу бесплатно!</p>
+    <div class="top">
+      <div class="container top-inner">
+        <img src="@/assets/header/delivery.svg" alt="deliver" />
+        <p>Доставка и сборка по городу бесплатно!</p>
+      </div>
     </div>
-    <div class="middle container">
-      <p>mebel.ru - интернет-магазин качественной мебели</p>
-      <div class="links">
-        <a href="#">
-          <img src="@/assets/header/geo.svg" alt="location" />
-          Москва
-        </a>
-        <a href="#">
-          <img src="@/assets/header/email.svg" alt="email" />
-          mebel@yandex.ru
-        </a>
+    <div class="middle">
+      <div class="container middle-inner">
+        <p>mebel.ru - интернет-магазин качественной мебели</p>
+        <div class="links">
+          <a href="#">
+            <img src="@/assets/header/geo.svg" alt="location" />
+            Москва
+          </a>
+          <a href="#">
+            <img src="@/assets/header/email.svg" alt="email" />
+            mebel@yandex.ru
+          </a>
+        </div>
       </div>
     </div>
     <div class="main container">
@@ -59,25 +63,31 @@ export default {
   width: 100%;
   padding: 10px 0;
   background-color: $mainColor;
+}
+
+.top-inner {
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-.top p {
-  font-size: 16px;
-  font-weight: 600;
-  color: $lightColor;
-  margin-left: 11px;
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    color: $lightColor;
+    margin-left: 11px;
+  }
 }
 
 .middle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding-top: 12px;
   padding-bottom: 10px;
   background: $backgroundColor;
+}
+
+.middle-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   p {
     font-size: 13px;
