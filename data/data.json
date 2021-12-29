@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "Столы",
+      "text": "80шт",
+      "img": "require('@/assets/categories/img1.png')"
+    },
+    {
+      "id": 2,
+      "title": "Кровати",
+      "text": "80шт",
+      "img": "require('@/assets/categories/img2.png')"
+    },
+    {
+      "id": 3,
+      "title": "Тумбы",
+      "text": "80шт",
+      "img": "require('@/assets/categories/img3.png')"
+    },
+    {
+      "id": 4,
+      "title": "Шкафы",
+      "text": "80шт",
+      "img": "require('@/assets/categories/img4.png')"
+    },
+    {
+      "id": 5,
+      "title": "Стулья",
+      "text": "80шт",
+      "img": "require('@/assets/categories/img5.png')"
+    },
+    {
+      "id": 6,
+      "title": "Диваны",
+      "text": "80шт",
+      "img": "require('@/assets/categories/img6.png')"
+    }
+  ] 
+}
